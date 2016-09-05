@@ -1,0 +1,10 @@
+1. gitclone  repository from githut: https://github.com/satoshiiizuka/siggraph2016_colorization
+2. under the construction from the webpage to install the tool.
+3. this repository dependencies include Torch7, goto http://torch.ch/docs/getting-started.html to make torch installed.
+3.1 git clone https://github.com/torch/distro.git ~/torch --recursive
+
+3.2 cd ~/torch; bash install-deps;
+    when error occurs, NO_PUBLICKEY:  sudo apt-get install uk-keyring
+3.3 ./install.sh
+    sudo apt-get install cmake
+    sudo apt-get install libreadline6 libreadline6-dev
