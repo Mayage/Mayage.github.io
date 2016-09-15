@@ -19,12 +19,12 @@ body {
 
 a {
 	text-decoration: none;
-	color: #f7f7f7;
+	color: #5db289;
 	outline: none;
 }
 
 a:hover, a:focus {
-	color: #fff;
+	color: #5db2ff;
 	outline: none;
 }
 
@@ -163,6 +163,10 @@ a:hover, a:focus {
 	width: 60%;
 }
 
+.block-100 {
+	width: 100%;
+}
+
 .block p {
 	margin: 0;
 	padding: 0 1em 0.6em;
@@ -188,6 +192,16 @@ a:hover, a:focus {
 	color: #336ca6;
 }
 
+.span-bold {
+	text-align: center;
+	font-size: 1em;
+	clear: left;
+	color: #5db289;
+}
+
+#latest-digest-title {
+	font-size: 1.5em;
+}
 @media screen and (max-width: 69em) {
 	.block {
 		float: none;
