@@ -1,0 +1,4 @@
+Lib 中删除popup的维护。在Lib的Control中维护popup;
+1、推荐用系统的,yunos系统提供的dialogue和toast。
+2、因为toast 相对比较容易，但是popup的画面可能比较复杂，所以Lib的Control中提供和公共行为一样的popup，并且提供其生命周期管理；
+3、提供popup的缓存，提供popup onShow时候的数据刷新；比较复杂，还是。
