@@ -19,7 +19,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #5db289;
+	color: #5dbb5d;
 	outline: none;
 }
 
@@ -193,15 +193,14 @@ a:hover, a:focus {
 }
 
 .span-bold {
-	text-align: center;
-	font-size: 1em;
+	font-size: 0.7em;
 	clear: left;
-	color: #5db289;
 }
 
 #latest-digest-title {
-	font-size: 1.5em;
+	font-size: 2em;
 }
+
 @media screen and (max-width: 69em) {
 	.block {
 		float: none;
