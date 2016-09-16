@@ -6,8 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="generator" content="Movable Type 5.2.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayage's Web blog</title>
-    <meta name="description" content="Mayage's Web blog: 记录日常的阅读感想、技术的学习心得、或者生活琐事、无聊感慨" />
+    <title>Mayage's 网络日志</title>
+    <meta name="description" content="Mayage's 网络日志: 记录日常的阅读感想、技术的学习心得、或者生活琐事、无聊感慨" />
     <meta name="keywords" content="Mayage, blog, webblog, learning, reading" />
     <meta name="author" content="Mayage" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.ruanyifeng.com/rsd.xml" />
@@ -40,7 +40,7 @@
     }
     
     body.dinning-table #web-dish {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.3);
         border-radius: 1.5em;
         color: #fefefe;
         overflow: auto;
@@ -63,43 +63,11 @@
     body.dinning-table #web-dish p,
     body.dinning-table #web-dish a {
         color: #fefefe;
-        text-align: center;
         text-shadow: 0 1px 1px #333
     }
     
     body.dinning-table #web-dish a:hover {
         color: #22252f;
-    }
-    /*body.dinning-table #web-dish-holder {
-        color: #fefefe;
-        overflow: auto;
-        position: absolute;
-        left: 95%;
-        top: 95%;
-        width: auto;
-        height: auto;
-        max-height: 80%;
-        min-width: 90%;
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }*/
-    
-    body.dinning-table #web-dish-holder p {
-        position: absolute;
-        max-width: 100%;
-        max-height: 30%;
-        left: 70%;
-        top: 75%;
-        color: #fefefe;
-        text-align: right;
-        margin: 2em;
-        /*word-spacing:5px;*/
-        text-shadow: 0 1px 1px #333;
-        padding: 1em;
-        line-height: 1.5em;
     }
     
     body.dinning-table #page-alpha p:hover,
@@ -184,17 +152,12 @@
 <body class="dinning-table">
     <div id="web-dish">
         <div id="header-title" onclick="backgroundImage();return false;">
-            <h1>Mayage's Web blog</h1>
-            <p>Welcome to Personal web blog</p>
+            <h1>Mayage's 网络日志</h1>
         </div>
-        <div id="header-redirect">
-            <p>
-                <a href="articles/archives.html" style="font-size:1.5em;">  Articles  </a> | <a href="about.html" style="font-size:1.5em;">  About  </a></p>
+        <div id="header-redirect" style="margin-bottom:2em;">
+            <p>»
+                <a href="blog/">Blog</a> / <a href="tweets/">Tweets</a> / <a href="about.html">About</a></p>
         </div>
-    </div>
-    <div id="web-dish-holder">
-        <p>Huangpu River in Shanghai
-            <br /> <span id="dateReminder"></span></p>
     </div>
     <script>
     (function(i, s, o, g, r, a, m) {
@@ -211,9 +174,6 @@
 
     ga('create', 'UA-46829782-1', 'ruanyifeng.com');
     ga('send', 'pageview');
-    </script>
-    <script type="text/JavaScript">
-        function timer(){ var time=new Date(); document.getElementById("dateReminder").innerHTML=time; } timer(); setInterval("timer()", 1000);
     </script>
 </body>
 
