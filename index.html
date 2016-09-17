@@ -10,7 +10,6 @@
     <meta name="description" content="Mayage's Web blog: 记录日常的阅读感想、技术的学习心得、或者生活琐事、无聊感慨" />
     <meta name="keywords" content="Mayage, blog, webblog, learning, reading" />
     <meta name="author" content="Mayage" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.ruanyifeng.com/rsd.xml" />
     <style>
     html {
         width: 100%;
@@ -39,7 +38,7 @@
         transition: All 2s ease;
     }
     
-    body.dinning-table #web-dish {
+    body.index-table #web-dish {
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 1.5em;
         color: #fefefe;
@@ -60,34 +59,18 @@
         transition: top 1s ease;
     }
     
-    body.dinning-table #web-dish p,
-    body.dinning-table #web-dish a {
+    body.index-table #web-dish p,
+    body.index-table #web-dish a {
         color: #fefefe;
         text-align: center;
         text-shadow: 0 1px 1px #333
     }
     
-    body.dinning-table #web-dish a:hover {
+    body.index-table #web-dish a:hover {
         color: #22252f;
     }
-    /*body.dinning-table #web-dish-holder {
-        color: #fefefe;
-        overflow: auto;
-        position: absolute;
-        left: 95%;
-        top: 95%;
-        width: auto;
-        height: auto;
-        max-height: 80%;
-        min-width: 90%;
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }*/
-    
-    body.dinning-table #web-dish-holder p {
+
+    body.index-table #web-dish-holder p {
         position: absolute;
         max-width: 100%;
         max-height: 30%;
@@ -102,35 +85,13 @@
         line-height: 1.5em;
     }
     
-    body.dinning-table #page-alpha p:hover,
-    body.dinning-table #footer-content a:hover {
-        background-color: #fefefe;
-        color: #222;
-    }
-    
-    body.dinning-table #footer-content a:hover {
-        padding: 0.25rem;
-        border-radius: 0.5em;
-    }
-    
-    body.dinning-table #page-alpha p:hover a {
-        color: #222;
-    }
-    
-    body.dinning-table #page-alpha p {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 0.25rem;
-        border-radius: 0.5em;
-        text-shadow: 0 1px 1px #333;
-    }
-    
-    body.dinning-table #header {
+    body.index-table #header {
         /* height: 7rem; */
         display: relative;
         padding-bottom: 1em;
     }
     
-    body.dinning-table #web-dish h1 {
+    body.index-table #web-dish h1 {
         font-size: 1.4rem;
         line-height: 90%;
         color: #fefefe;
@@ -141,26 +102,8 @@
         font-weight: bolder;
         text-shadow: 0 1px 1px #333;
     }
-    
-    body.dinning-table #header-content:hover h1 {
-        text-decoration: underline;
-    }
-    
-    body.dinning-table #header-content h1:hover {
-        cursor: pointer;
-    }
-    
-    body.dinning-table #header-content p {
-        text-align: center;
-    }
-    
-    body.dinning-table #header-content {
-        display: block;
-        text-align: center;
-        margin: auto;
-    }
-    
-    body.dinning-table #web-dish.folded {
+        
+    body.index-table #web-dish.folded {
         top: 15px;
         margin-top: 5px;
         height: 6px;
@@ -168,20 +111,20 @@
     }
     
     @media (min-width: 641px) and (max-width:770px) {
-        body.dinning-table #web-dish {
+        body.index-table #web-dish {
             min-width: 70%;
         }
     }
     
     @media (min-width: 771px) {
-        body.dinning-table #web-dish {
+        body.index-table #web-dish {
             min-width: 40%;
         }
     }
     </style>
 </head>
 
-<body class="dinning-table">
+<body class="index-table">
     <div id="web-dish">
         <div id="header-title" onclick="backgroundImage();return false;">
             <h1>Mayage's Web blog</h1>
