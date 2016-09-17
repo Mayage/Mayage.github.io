@@ -8,3 +8,4 @@
 3.3 ./install.sh
     sudo apt-get install cmake
     sudo apt-get install libreadline6 libreadline6-dev
+3.4 then type th and if you get an image printed in terminal the torch is correctly installed.

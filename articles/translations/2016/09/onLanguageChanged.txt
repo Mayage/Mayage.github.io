@@ -1,0 +1,22 @@
+onLanguageChanged：
+1、在结构中，带有语言显示的对象，其属性中标识语言的可以是text\tab\info\reminder\等，但只要需要换语言，都要经过T函数转化；
+2、之前的结构在BaseApplication中，通过get\set language & skin 接口来保存语言、皮肤信息；当被修改时，将事件逐级分发到Areas-BaseViews-BaseWidgetViews-BasePopup的各个中。
+	缺点：
+		a)当一个对象的文言在程序中动态改变了，责换语言还是会更新为style中的文字；
+		b)每增加一个画面类型，就要假设一个语言消息传递通道；
+	 
+3、设想，每一个通过StyleView创造出来的View，在进行T函数转化时，通过某种方式将“view-对象-属性-值”记录起来，将这个view，注册到语言监听函数中。当语言更换时，所有注册的view被触发更换语言，而且可以2-a,2-b中的麻烦。
+	缺点：
+		
+4、整个view注册到BaseApplication中的语言监听器上，监听器可以做按顺序、异步的更新，不过目前设计只实现简单的同步刷新；
+5、util.readJSON增加一个缓存机制，对语言这种每个view都会访问又目标文件相同的IO读写，进行缓存操作，这样可以减少IO读写次数，提高性能；从而把sLanguage从StyleView中除去。
+
+
+onSkinChanged：
+1、之前的结构在BaseApplication中，通过get\set language & skin 接口来保存语言、皮肤信息；当被修改时，将事件逐级分发到Areas-BaseViews-BaseWidgetViews-BasePopup的各个中。
+	缺点：
+		a)当一个对象的文言在程序中动态改变了，责换语言还是会更新为style中的文字；
+		b)每增加一个画面类型，就要假设一个语言消息传递通道；
+2、这个功能是预留的，目前都没有用到，不过还是要兼顾的。
+
+
