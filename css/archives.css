@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'codropsicons';
+    src: url('../fonts/codropsicons/codropsicons.eot');
+    src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+body {
+    background: #34495e;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.page-frame{
+	position: absolute;
+    width: 70%;
+    left: 5%;
+    height: auto;
+}
+
+.page-content{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.navi-listOfTime #navi-listOfTime-yearName{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 2em;
+	margin: 0.5em;
+}
+
+#navi-listOfTime-year-item{
+	line-height: 20px;
+}
+a {
+    text-decoration: none;
+    color: #5dbb5d;
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    color: #5db2ff;
+    outline: none;
+}
+
+@media screen and (max-width: 69em) {
+    .block {
+        float: none;
+        width: 100% !important;
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 25em) {
+    body {
+        font-size: 80%;
+    }
+    .codrops-icon span {
+        display: none;
+    }
+}
