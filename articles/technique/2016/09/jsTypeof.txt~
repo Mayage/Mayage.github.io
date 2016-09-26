@@ -1,0 +1,19 @@
+> typeof undefined
+    'undefined'
+    > typeof null // well-known bug
+    'object'
+    > typeof true
+    'boolean'
+    > typeof 123
+    'number'
+    > typeof "abc"
+    'string'
+    > typeof function() {}
+    'function'
+    > typeof {}
+    'object'
+    > typeof []
+    'object'
+    > typeof unknownVariable
+    'undefined'
+

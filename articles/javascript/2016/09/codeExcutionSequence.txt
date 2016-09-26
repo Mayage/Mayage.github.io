@@ -1,0 +1,34 @@
+var Icon = lang.extend(BaseItem, {
+    __defaultOptions: {
+    },
+
+    constructor: function Icon() {
+        1---->
+        Icon.superclass.constructor.apply(this, arguments);
+        8--->使用__defaultOptions初始化
+        return this;
+    },
+    onCreate: function () {
+        3--->
+        Icon.superclass.onCreate.apply(this, arguments);
+        6--->
+        return this;
+    }
+}
+
+var BaseItem = lang.extend(View, {
+    __defaultOptions: {
+    },
+    constructor: function BaseItem() {
+        2--->
+        BaseItem.superclass.constructor.apply(this, arguments);
+        7--->变使用__defaultOptions初始化
+        return this;
+    },
+    onCreate: function () {
+        4--->
+        BaseItem.superclass.onCreate.apply(this, arguments);
+        5--->
+        return this;
+    },
+}

@@ -1,0 +1,57 @@
+## My experience in ML
+I first got in touch with ml was in September 2015 when I was working as a coder for about half year.
+
+After that I gradually read some books and papers in this fields.
+
+## Namingly books or papers or videos 
+1) [book] Machine Learning by Zhou Zhihua. I read through it in July and August,2016. This book was written in a straightaway manner which makes it relatively easy and interesting to read. And I would like to introduce this book to any Chinese students or engineerings who wants to have a textbook.
+2) [paper] Going deeper with convolutions
+3) 机器学习基石，机器学习技法：林轩田 台湾大学
+4) http://neuralnetworksanddeeplearning.com/. Providing github codes and webpage instruction.
+5) 机器学习实践： 并不是很好，感觉；
+6) http://deeplearning.net/tutorial/contents.html Webpage likely book
+        
+
+
+
+## Famouse Figure in this field
+1) Andrew Wu
+2) FeiFei Li: As Director of Stanford’s Artificial Intelligence Lab and Vision Lab, Fei-Fei Li is working to solve AI’s trickiest problems — including image recognition, learning and language processing.
+3) Wei Liu: PhD Student of Computer Science, University of North Carolina at Chapel Hill
+4) Geoffrey E. Hinton: http://www.cs.toronto.edu/~hinton/ 
+       - He is leading university of toronto: http://learning.cs.toronto.edu/courses
+       - Visual Perception for Autonomous Driving Winter 2016
+        --发现国外的实验室，在做Autonomous Driving         
+        --http://www.cs.toronto.edu/~urtasun/courses/CSC2541/CSC2541_Winter16.html
+
+   
+
+## prominent competion
+
+
+## Common sense
+# MNIST:
+The MNIST database (Mixed National Institute of Standards and Technology database) is a large database of handwritten digits that is commonly used for training various image processing systems.     
+
+
+
+
+
+
+
+
+
+
+reCAPTCHA
+
+
+
+
+
+
+
+
+
+
+
+
