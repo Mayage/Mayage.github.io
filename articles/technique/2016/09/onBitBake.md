@@ -98,3 +98,11 @@ Information in append files overrides the information in the similarly-named rec
 ###2.6. Executing Tasks
 ###2.7. Checksums (Signatures)
 ###2.8. Setscene
+
+##Hello World
+1. git clone bitbake
+1. set BBPATH
+1. make conf/bitbake.conf, note TOPDIR is default;
+1. 
+
+
