@@ -1,0 +1,30 @@
+9:55开始
+
+一、
+Y，N，Y，Y，N
+二、
+A，D，D，B，D
+C，C，A，A，D
+C，D，B，C，
+三、
+D,D,A,C,
+四、
+1、	2，1
+2、	5，4，4，4，7
+3、
+五、
+1、
+#define MIN(a,b)
+2、
+a) int a;
+b) int *a;
+c) int **a;
+d) int a[10];
+e) int *a[10];
+f) * int a[10];
+g) int *func(int a);
+h) int  *func[10](int a);
+
+10:37结束
+
+得42分钟；
