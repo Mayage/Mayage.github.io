@@ -1,0 +1,33 @@
+1、往各个分支提交的代码，都需要更新manifest文件；
+2、往各个分支提交的代码，都需要把JiraID，写上，即使没有ID，也有默认的；
+
+
+1 git pull 同步gerrit服务器代码；
+2 本地用BC进行merge；
+3 用remote.sh进行本地验证；
+4 delete .zip 和 remote.sh；
+5 git add --a;
+6 git commit -m "JiraID:ZXQ-1372,ZXQ-1178:Fix bug and modify for GUI changed and add new feature of WIFI code."
+7 SYSTEMSETTING 的 zxq代号是200
+8 git push origin HEAD:refs/for/ip31_zxq_dev
+9 precheck 后，进行代码修改，然后再git commit --amend
+10 10.25.20.103 gerrit +code reviewer
+
+
+/******************************************
+change file names and externals in terminal;
+*******************************************/
+方法二:使用xargs命令.
+ls *.c | awk -F'.'  '{print $1}'|xargs -i -t mv {}.c {}.cc
+个人认为这用得非常精妙,得仔细参研各参数的意义:
+xargs options:
+-i 是用每行的参数替换{}
+-t 是先显示命令再执行相关操作.
+ ls *.jpg|awk -F'.' '{print $1}' |xargs -i -t mv {}.jpg line_{}.jpg
+ 
+方法三:使用shell for语句.
+for i in `ls *.c | awk -F'.'  '{print $1}'`;do mv $i.c $i.cc;done
+// one use for mv png to jpg
+ for i in `ls line* | awk -F'line_'  '{print $2}'`;do mv line_$i $i;done
+for这个的话可以进行后缀修改,新增操作,近来在研读shell 编程,非常喜欢这行命令.
+

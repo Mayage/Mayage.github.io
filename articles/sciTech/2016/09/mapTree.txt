@@ -1,0 +1,164 @@
+.
+├── js
+│   ├── address
+│   ├── common
+│   ├── components
+│   ├── config
+│   ├── constants
+│   ├── data
+│   ├── frame
+│   ├── models
+│   │   ├── mock
+│   │   └── test
+│   ├── navigation
+│   │   ├── dash
+│   │   └── flexnavi
+│   ├── pluginsystem
+│   │   └── now
+│   ├── poi
+│   ├── serviceProxies
+│   ├── test
+│   ├── themes
+│   │   ├── sw1280
+│   │   │   └── day
+│   │   │       ├── address
+│   │   │       ├── components
+│   │   │       ├── frame
+│   │   │       ├── navigation
+│   │   │       │   ├── dash
+│   │   │       │   └── flexnavi
+│   │   │       ├── pluginsystem
+│   │   │       └── poi
+│   │   ├── sw1920
+│   │   │   ├── CoolEco
+│   │   │   │   └── navigation
+│   │   │   │       └── dash
+│   │   │   └── CoolNormal
+│   │   │       └── navigation
+│   │   │           └── dash
+│   │   ├── sw540
+│   │   │   └── CoolSport
+│   │   │       └── navigation
+│   │   │           └── dash
+│   │   ├── sw800
+│   │   │   └── defaultday
+│   │   │       └── navigation
+│   │   │           └── dash
+│   │   └── sw960
+│   │       ├── day
+│   │       │   ├── address
+│   │       │   ├── components
+│   │       │   ├── frame
+│   │       │   ├── navigation
+│   │       │   │   └── flexnavi
+│   │       │   ├── pluginsystem
+│   │       │   └── poi
+│   │       └── night
+│   │           ├── address
+│   │           ├── components
+│   │           └── navigation
+│   │               └── flexnavi
+│   └── update
+│       ├── common
+│       └── updateservice
+├── layout
+│   ├── sw1280
+│   │   ├── dialog
+│   │   └── poi
+│   └── sw960
+│       ├── address
+│       ├── components
+│       ├── dialog
+│       ├── pluginsystem
+│       └── poi
+├── libs
+├── locales
+│   ├── en-US
+│   └── zh-CN
+├── node_modules
+│   ├── co
+│   ├── node-stream-zip
+│   └── underscore
+├── plugins
+│   └── vehicle_services
+│       ├── layout
+│       │   ├── sw1280
+│       │   └── sw960
+│       └── res
+│           ├── sw1280
+│           └── sw960
+├── res
+│   ├── assets
+│   ├── map
+│   ├── sw1280
+│   │   └── day
+│   │       ├── address
+│   │       ├── map
+│   │       ├── plugin
+│   │       ├── poi
+│   │       └── ui
+│   │           ├── flexnavi
+│   │           ├── guider
+│   │           │   └── dash
+│   │           │       └── lane
+│   │           └── roadway
+│   ├── sw1920
+│   │   ├── CoolEco
+│   │   │   ├── map
+│   │   │   └── ui
+│   │   │       └── guider
+│   │   │           └── dash
+│   │   │               └── lane
+│   │   └── CoolNormal
+│   │       ├── map
+│   │       └── ui
+│   │           └── guider
+│   │               └── dash
+│   │                   └── lane
+│   ├── sw540
+│   │   └── CoolSport
+│   │       ├── map
+│   │       └── ui
+│   │           └── guider
+│   │               └── dash
+│   │                   └── lane
+│   ├── sw800
+│   │   └── defaultday
+│   │       ├── map
+│   │       └── ui
+│   │           └── guider
+│   │               └── dash
+│   │                   └── lane
+│   ├── sw960
+│   │   ├── day
+│   │   │   ├── address
+│   │   │   ├── map
+│   │   │   ├── plugin
+│   │   │   ├── poi
+│   │   │   └── ui
+│   │   │       ├── flexnavi
+│   │   │       ├── guider
+│   │   │       │   └── dash
+│   │   │       │       └── lane
+│   │   │       └── roadway
+│   │   └── night
+│   │       ├── address
+│   │       ├── map
+│   │       ├── plugin
+│   │       ├── pluginswitcher
+│   │       │   ├── car_service
+│   │       │   └── now
+│   │       ├── poi
+│   │       └── ui
+│   │           ├── flexnavi
+│   │           ├── guider
+│   │           │   └── dash
+│   │           │       └── lane
+│   │           └── roadway
+│   ├── textures
+│   └── ui
+│       ├── illegalParking
+│       └── infoFlow
+└── signature
+
+161 directories

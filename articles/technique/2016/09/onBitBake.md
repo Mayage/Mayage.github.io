@@ -100,8 +100,11 @@ Information in append files overrides the information in the similarly-named rec
 ###2.8. Setscene
 
 
-
 ## install HelloWorld
 1. need python 3.4 or higher, best way is to get the code from offcial site
 2. while compiling python, shuld: sudo apt-get install libsqlite3-dev
 3. then follow the instruction on bitbake.
+ 
+
+
+>>>>>>> 58455274ec62c3e51eafe5571d085c30d6681a35:articles/technique/2016/09/onBitBake.md
