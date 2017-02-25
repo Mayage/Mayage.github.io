@@ -1,0 +1,37 @@
+# 给变量和对象起名字是很烦的事情，会消耗相当的时间（包括寻思起什么名字，和命名不当引起的bug）
+
+
+retrieve data ：获取数据
+save data：保存数据
+layers of isolution：分层隔离
+aggregates：聚集体；
+
+# 衡量架构的指标
+Performance：性能
+Testability：易测性
+Ease of deployment：易于部署
+Scalability：扩展性
+Ease of development：易于开发
+Overall agility：总体敏捷性
+
+
+
+
+
+cumbersome and time-consuming：麻烦和耗时的
+
+
+customer delegate module ： 客户代理模型；
+customer dao (data access object) ： 客户数据获取对象；
+order dao；
+
+
+From a technology perspective：从技术的角度；
+
+
+Failure to document or properly communicate which layers in the architecture are open and closed (and why) usually results in tightly coupled and brittle architectures that are very difficult to test,maintain, and deploy.
+
+
+leverage : 杠杆；
+brittle : 脆，易碎的；
+
