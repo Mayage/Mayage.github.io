@@ -1,0 +1,29 @@
+### 
+1. 增加component/LoadingTips, 即带文字和loading的loading组件.
+2. 框架增加专门用于显示loading的layer,可以通过Application中的loadingControl来获取操作接口.
+具体参考loadingControl以及legodemo的LoadingTipsPage.
+以上功能:7/15版本可以使用.
+
+###
+手指移出控件范围依然发送TouchEnd问题,导致移出范围之后依然触发相关操作,
+例如http://210.13.68.150:48082/browse/BM-6510.
+caf增加公有新接口view.containsPointOfView(x, y)用于判断是否移出控件范围.
+参考代码:
+view.on("touchend", function(e) {
+if (view.containsPointOfView(e.changedTouches[0].clientX, e.changedTouches[0].clientY))
+{ // touchend point is outside of this view }
+else
+{ // touchend point is inside of this view }
+});
+---->以上接口可在14日之后使用.
+
+注意:
+目前系统支持多指操作,多个手指抬起时,每个手指都会有一个touchEnd时间,所以多指操作可能会触发多次action.
+这个问题与caf协商结果为:caf将会增加属性设置相应控件支持多指或者单指.
+提供之后我们会通知大家.
+
+###
+关于[点击输入法以外区域，输入法未隐藏]的共性问题,请大家做如下修改:
+在使用InputBox的View对应的XML最外层CompositeView上设置focusInTouchMode 和 focusable为True.
+可以参考:
+http://210.13.68.150:48082/browse/BM-4328
